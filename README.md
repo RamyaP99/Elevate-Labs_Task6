@@ -33,7 +33,7 @@ olist_order_items_dataset.csv:
 * Create tables for orders_dataset and order_items_dataset using create_tables.
 * Imported olist_orders_dataset.csv and olist_order_items_dataset.csv into the respective tables.
 
-#### Analysis Details
+### Analysis Details
 **Data Preprocessing**
 * Joined olist_orders_dataset and olist_order_items_dataset on order_id to link order dates with item prices.
 * Filtered for order_status = 'delivered' ensures only completed orders are counted.
