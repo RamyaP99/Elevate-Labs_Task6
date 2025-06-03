@@ -5,12 +5,12 @@ This project performs a Sales Trend Analysis on the Brazilian E-commerce dataset
 
 Using SQL ( MySQL), the analysis aggregates data from the olist_orders_dataset and olist_order_items_dataset to identify time-based trends. The deliverables include an SQL script to compute metrics and a results table summarizing findings for 2017–2018. The project leverages aggregation techniques (SUM, COUNT, GROUP BY) to support business insights like seasonal sales patterns.
 
-**Key Findings:**
+#### Key Findings
 
 * Revenue and order volume peak in November–December
 * 2018 shows growth over 2017, indicating business expansion.
 
-**Dataset**
+#### Dataset
 
 dataset :  https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
@@ -39,7 +39,7 @@ olist_order_items_dataset.csv:
 * Filtered for order_status = 'delivered' ensures only completed orders are counted.
 * Limited to 2017–2018 for complete yearly data.
 
-**SQL Techniques**
+#### SQL Techniques
 
 **Aggregations:**
 
@@ -51,7 +51,7 @@ olist_order_items_dataset.csv:
 **Sorting:** ORDER BY year, month for chronological order.
 
 
-**Results:**
+#### Results
 
 The script outputs a table with:
 * year, month, month_name
