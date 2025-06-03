@@ -7,12 +7,12 @@ Using SQL ( MySQL), the analysis aggregates data from the olist_orders_dataset a
 
 **Key Findings:**
 
-Revenue and order volume peak in November–December
-
-2018 shows growth over 2017, indicating business expansion.
+* Revenue and order volume peak in November–December
+* 2018 shows growth over 2017, indicating business expansion.
 
 **Dataset**
-dataset :  
+
+dataset :  https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 The Brazilian E-commerce dataset includes:
 
@@ -43,8 +43,8 @@ olist_order_items_dataset.csv:
 
 **Aggregations:**
 
-  SUM(oi.price) for revenue.
-  COUNT(DISTINCT o.order_id) for order volume.
+     SUM(oi.price) for revenue.
+     COUNT(DISTINCT o.order_id) for order volume.
 
 **Grouping:** GROUP BY year, month and month_name
 
